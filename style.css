@@ -12,6 +12,23 @@ body {
     color: white;
 }
 
+/* Contenedor */
+.contenedor-flex {
+    display: flex;
+}
+
+/* Caja con ancho fijo usando 'width' */
+.caja-1, caja-2 {
+    width: 200px;
+    /* Evitamos que crezca o se encoja para mantener el ancho fijo */
+    flex-grow: 0; 
+    flex-shrink: 0;
+}
+
+img {
+    width: 150px;
+}
+
 h1 {
     margin: 0;
     padding: 0;
