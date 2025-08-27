@@ -1,16 +1,32 @@
-
 body {
     margin: 0;
-    padding: 0;
+    /* La capa de color semitransparente se define primero */
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+                /* La imagen de fondo se define en segundo lugar */
+                url('torino.jpg');
+    
+    /* Propiedades adicionales para la imagen de fondo */
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    color: white;
 }
 
 h1 {
     margin: 0;
     padding: 0;
+    padding-top: 12px;
 }
 
 header {
-    background-color: blue;
-    height: 30%;
+    background: linear-gradient(#580e0ef6, transparent);
+    height: 20%;
 }
+
+main {
+    height: 20%;
+
+}
+
+
 
